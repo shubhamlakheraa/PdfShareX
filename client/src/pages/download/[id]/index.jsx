@@ -7,7 +7,7 @@ export async function getServerSideProps(context){
     const{id} = context.query
     let file
     try {
-        const {data} = await axios.get(`http://localhost:8000/api/files/${id}`)
+        const {data} = await axios.get(`https://pdfsharex.onrender.com/api/files/${id}`)
         file = data
     } catch (error) {
         console.log(error.response.data)
@@ -24,7 +24,7 @@ const DownloadPage = (props) => {
 
     const handledownload = async() => {
         const { data } = await axios.get(
-            `http://localhost:8000/api/files/${props.file.id}/download`,
+            `https://pdfsharex.onrender.com/api/files/${props.file.id}/download`,
             {
                 responseType: 'blob'
             }
