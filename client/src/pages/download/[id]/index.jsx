@@ -2,7 +2,7 @@ import RenderFile from "@/components/RenderFile"
 import axios from "axios"
 import styles from "@/styles/Home.module.css"
 import fileDownload from "js-file-download"
-import Footer from "@/components/Footer"
+
 export async function getServerSideProps(context){
 
     const{id} = context.query
@@ -52,9 +52,7 @@ const DownloadPage = (props) => {
                 
                 </>
             )}
-            <div>
-                <Footer />
-            </div>
+       
             
         </div>
         </>
