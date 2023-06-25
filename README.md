@@ -4,6 +4,10 @@
 
 PdfShareX is a powerful PDF sharing application that allows users to seamlessly upload, share, and collaborate on PDF documents. With a robust tech stack consisting of Next.js for the frontend, Node.js with Express for the backend, MongoDB with Mongoose for the database, Cloudinary for cloud storage, and Multer for file handling, PdfShareX provides an efficient and secure platform for managing PDF files.
 
+
+https://github.com/shubhamlakheraa/PdfShareX/assets/64166515/959606b8-9e53-4513-afe5-cb92f2418bb6
+
+
 ## Architecture Overview
 
 The architecture of PdfShareX follows a modern and scalable design, leveraging the strengths of each technology in the tech stack. Here's an overview of the different components and their interactions:
