@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Poppins } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import HomePage from './homePage'
-import Footer from '@/components/Footer'
+
 const poppins = Poppins({ weight: '400', subsets: ['latin'] })
 
 export default function Home() {
@@ -27,7 +27,7 @@ export default function Home() {
       </div>
 <div>
 <HomePage />
-<Footer />
+
 </div>
        
        
